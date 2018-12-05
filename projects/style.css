@@ -1,0 +1,15 @@
+header a {
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+
+}
+
+.logo {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-position: left;
+    background-image: url("");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
