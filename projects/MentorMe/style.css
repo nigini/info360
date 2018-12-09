@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(240, 230, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    color: rgb(126, 75, 187);
+}
+
+p {
+    color:#595959;
+}
