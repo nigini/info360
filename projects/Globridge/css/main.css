@@ -2393,7 +2393,7 @@
 	}
 
 	#banner {
-		background: linear-gradient(to bottom, #479e97 0%,#248f5d 100%);	
+		background: linear-gradient(to bottom, #479e97 0%,#248f5d 100%);
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
@@ -2460,7 +2460,7 @@
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		
+
 	}
 
 		#main > :last-child {
@@ -2495,6 +2495,10 @@
 
 		#cta header {
 			margin-bottom: 2em;
+		}
+		#heros {
+			display: flex;
+			flex-direction: row;
 		}
 
 /* Footer */
