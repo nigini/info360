@@ -7,10 +7,39 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    font-weight: 600;
+}
+
 h1, h2 {
     color: rgb(126, 75, 187);
 }
 
+
+
 p {
     color:#595959;
+}
+
+nav {
+    float: right;
+}
+
+main  {
+    padding-top: 5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+section p {
+    line-height: 2rem;
+}
+#title h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+#title p {
+    font-size: 2rem;
+    font-weight: 400;
 }
