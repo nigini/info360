@@ -26,19 +26,20 @@
 <body>
 
     <header id="nav-elements">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="#problem">Overview</a></li>
                     <li class="nav-item"><a class="nav-link" href="#application">The Program</a></li>
                     <li class="nav-item"><a class="nav-link" href="#documentation">Documents</a></li>
                     <li class="nav-item"><a class="nav-link" href="#our-team">About Us</a></li>
                 </ul>
             </div>
+
         </nav>
     </header>
 
@@ -56,8 +57,8 @@
         <section id="problem">
             <div class="section-content">
                 <h2>The Problem</h2>
-                <p>First-generation students, or students who are the first of their family to attend education past
-                    high-school, are shown to struggle graduating from the college setting.
+                <p><strong>First-generation students</strong>, or students who are the first of their family to attend education past
+                    high-school, are shown to <strong>struggle graduating</strong> from the college setting.
                     As first generation students, there is not much exposure or knowledge about the types of resources
                     that other students utilize to succeed and benefit themselves. Even
                     if students are aware of the resources available, understanding how to use them appropriately is
@@ -67,34 +68,53 @@
         </section>
 
         <!-- Solution -->
-        <section id="application">
+        <section>
             <div class="section-content">
-                <h2>Our Solution</h2>
-                <p><strong>MentorMe</strong> is a mentorship program turned into an application that focuses on
-                    addressing the
-                    information gap that arises amongst these first generation students. Our goal with
-                    this application is to give first generation students the opportunity to find mentors who can help
-                    them with their professional growth in the college setting.
-                </p>
-            </div>
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <h2>Our Solution</h2>
+                        <p><strong>MentorMe</strong> is a mentorship program turned into an application that focuses on
+                            addressing the
+                            information gap that arises amongst these first generation students. Our goal with
+                            this application is to give first generation students the opportunity to find mentors who
+                            can help
+                            them with their professional growth in the college setting.
+                        </p>
+                    </div>
+                    <div class="flex-item">
+                        <img class="screen" src="img/welcomeScreen.png" alt="Welcome Screen of mentor me">
+                    </div>
+                </div>
         </section>
 
         <!-- Features -->
-        <section>
+        <section  id="application">
             <div class="section-content">
                 <h2>Features</h2>
+
                 <div>
-                    <h3>Create your preferences</h3>
-                    <p>In order to help you find the mentor who is your best fit, specifying your preferences will help
-                        us help you achieve those goals.
-                        Filter your mentee experience through our options of the educational level of the mentor, their
-                        degree/major, avaibility to meet with you,
-                        and any other hobbies or interests that may be of relevance to helping fostering your
-                        experience as a first-gen student.
-                    </p>
+                    <div class="feature">
+                        <h3><strong>Create</strong> your preferences</h3>
+                        <p>In order to help you find the mentor who is your best fit, specifying your preferences will
+                            help
+                            us help you achieve those goals.
+                            Filter your mentee experience through our options of the educational level of the mentor,
+                            their
+                            degree/major, avaibility to meet with you,
+                            and any other hobbies or interests that may be of relevance to helping fostering your
+                            experience as a first-gen student.
+                        </p>
+                    </div>
+                    <div class="flex-container">
+                        <img class="feature-screen" src="img/filter1.png" alt="Mentor type">
+                        <img class="feature-screen" src="img/filter2.png" alt="Major or degree">
+                        <img class="feature-screen" src="img/filter3.png" alt="Availibility">
+                        <img class="feature-screen" src="img/filter4.png" alt="Hobbies and interests">
+                    </div>
                 </div>
-                <div>
-                    <h3>Search through a refined list</h3>
+                <div class="feature flex-container">
+                    <div class="flex-item">
+                    <h3><strong>Search</strong> through a refined list</h3>
                     <p>Our list of mentors are hand-picked undergraduate students or graduate students from the
                         University of Washington
                         to guarantee that their experience is one that can provide you the best tools to develop
@@ -102,8 +122,16 @@
                         in your first few steps throughout the journey that is college.
                     </p>
                 </div>
-                <div>
-                    <h3>Choose your mentor</h3>
+                <div class="flex-item">
+                    <img class="screen" src="img/mentor-results.png" alt="Mentor results">
+                </div>
+                </div>
+                <div class="feature flex-container">
+                    <div class="flex-item">
+                        <img class="screen" src="img/mentor-me.png" alt="Confirm your selected mentor">
+                    </div>
+                    <div class="flex-item">
+                    <h3><strong>Choose</strong> your mentor</h3>
                     <p>After sifting through our mentor list and viewing their experiences, select the mentor whose
                         experience
                         may benefit you the most. Enter a conversation with our in-built messaging system to learn more
@@ -111,21 +139,26 @@
                         can create a mentee-mentor relationship that will help you succeed.
                     </p>
                 </div>
+                </div>
             </div>
         </section>
 
         <!-- Design Process -->
-        <!-- <section>
-        </section> -->
+        <section>
+            <div class="section-content">
+                <h2> Design Process Insights </h2>
+                <p> </p>
+            </div>
+        </section>
 
         <!-- Report -->
         <section id="documentation">
             <div class="section-content">
                 <h2> Documentation </h2>
-                <button type="button" class="btn"><i class="far fa-file-alt"></i> Report</button>
-                <button type="button" class="btn"><i class="far fa-file"></i> Prototype</button>
-                <button type="button" class="btn"><i class="far fa-file"></i> Final Prototype</button>
-                <button type="button" class="btn"><i class="far fa-file-pdf"></i> Presentation</button>
+                <a target="_blank" class="button"><i class="far fa-file-alt"></i> Report</a>
+                <a target="_blank" class="button" href="./Paper Prototypes.pdf"><i class="far fa-file"></i> Paper Prototype</a>
+                <a target="_blank" class="button" href="https://invis.io/KBP6I1J36US#/screens"><i class="far fa-file"></i> Final Prototype</a>
+                <a target="_blank" class="button" href="./Powerpoint.pdf"><i class="far fa-file-pdf"></i> Presentation</a>
             </div>
         </section>
 
@@ -138,7 +171,7 @@
                 <div class="row">
                     <div class="column">
                         <div class="card">
-                        <img src="img/nathan.jpg" alt="Nathan Magdalera">
+                            <img src="img/nathan.jpg" alt="Nathan Magdalera">
                         </div>
                         <h3> Nathan Magdalera </h3>
                         <p> Informatics Student </p>
