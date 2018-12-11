@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color:  rgb(240, 230, 255); */
+    background-color: rgb(221,213,233);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h1, h2, h3 {
+    color: rgb(126, 75, 187);
+}
+
+p {
+    color:#595959;
+}
+
+nav {
+    float: right;
+}
+
+main  {
+    padding-top: 5rem;
+}
+
+section {
+    display: block;
+    background-color:  rgb(240, 230, 255);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+section:nth-child(odd) {
+    background-color: rgb(243, 237, 253);
+}
+
+section p {
+    line-height: 2rem;
+}
+
+.section-content {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.card {
+    border-radius: 50%;
+}
+
+.column {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.column img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.5rem;
+}
+
+#title {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+#title div {
+    margin-left: 10rem;
+}
+#title h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    display: inline-block;
+    border-bottom-style: solid;
+}
+
+#title p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#title #me {
+    display: inline;
+    color: rgb(93, 45, 153);
+    margin: 1rem;
+}
+
+#our-team, #documentation {
+    text-align: center;
+}
+

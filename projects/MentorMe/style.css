@@ -11,11 +11,9 @@ h2 {
     font-weight: 600;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: rgb(126, 75, 187);
 }
-
-
 
 p {
     color:#595959;
@@ -27,13 +25,21 @@ nav {
 
 main  {
     padding-top: 5rem;
-    margin-left: 20%;
-    margin-right: 20%;
+}
+
+section {
+    display: block;
 }
 
 section p {
     line-height: 2rem;
 }
+
+.section-content {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
 #title h1 {
     font-size: 5rem;
     font-weight: 800;

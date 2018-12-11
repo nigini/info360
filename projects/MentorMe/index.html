@@ -12,12 +12,14 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
 
 
     <title> mentor me </title>
-    
+
 </head>
 
 
@@ -25,15 +27,16 @@
 
     <header id="nav-elements">
         <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="">Overview</a></li>
-                    <li class="nav-item"><a class="nav-link"href="">The Program</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">Documents</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#problem">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#application">The Program</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#documentation">Documents</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#our-team">About Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -41,16 +44,17 @@
 
     <main>
         <!-- Title Section -->
-        <section id="title">
+        <div id="title">
             <div>
-                <h1>mentor me </h1>
+                <h1>mentor<div id="me">me</div>
+                </h1>
                 <p>Helping first-generation students transition into college</p>
             </div>
-        </section>
+        </div>
 
         <!-- Problem -->
-        <section>
-            <div>
+        <section id="problem">
+            <div class="section-content">
                 <h2>The Problem</h2>
                 <p>First-generation students, or students who are the first of their family to attend education past
                     high-school, are shown to struggle graduating from the college setting.
@@ -63,10 +67,11 @@
         </section>
 
         <!-- Solution -->
-        <section>
-            <div>
+        <section id="application">
+            <div class="section-content">
                 <h2>Our Solution</h2>
-                <p>mentor me is a mentorship program turned into an application that focuses on addressing the
+                <p><strong>MentorMe</strong> is a mentorship program turned into an application that focuses on
+                    addressing the
                     information gap that arises amongst these first generation students. Our goal with
                     this application is to give first generation students the opportunity to find mentors who can help
                     them with their professional growth in the college setting.
@@ -76,40 +81,96 @@
 
         <!-- Features -->
         <section>
-            <div>
+            <div class="section-content">
                 <h2>Features</h2>
                 <div>
-
+                    <h3>Create your preferences</h3>
+                    <p>In order to help you find the mentor who is your best fit, specifying your preferences will help
+                        us help you achieve those goals.
+                        Filter your mentee experience through our options of the educational level of the mentor, their
+                        degree/major, avaibility to meet with you,
+                        and any other hobbies or interests that may be of relevance to helping fostering your
+                        experience as a first-gen student.
+                    </p>
+                </div>
+                <div>
+                    <h3>Search through a refined list</h3>
+                    <p>Our list of mentors are hand-picked undergraduate students or graduate students from the
+                        University of Washington
+                        to guarantee that their experience is one that can provide you the best tools to develop
+                        professionally and professionally
+                        in your first few steps throughout the journey that is college.
+                    </p>
+                </div>
+                <div>
+                    <h3>Choose your mentor</h3>
+                    <p>After sifting through our mentor list and viewing their experiences, select the mentor whose
+                        experience
+                        may benefit you the most. Enter a conversation with our in-built messaging system to learn more
+                        about how you and that mentor
+                        can create a mentee-mentor relationship that will help you succeed.
+                    </p>
                 </div>
             </div>
         </section>
 
         <!-- Design Process -->
-        <section>
-        </section>
+        <!-- <section>
+        </section> -->
 
         <!-- Report -->
-        <section>
-            <div>
+        <section id="documentation">
+            <div class="section-content">
                 <h2> Documentation </h2>
-                <button type="button" class="btn">Report</button>
-                <button type="button" class="btn">Prototype</button>
-                <button type="button" class="btn">Final Prototype</button>
-                <button type="button" class="btn">Presentation</button>
+                <button type="button" class="btn"><i class="far fa-file-alt"></i> Report</button>
+                <button type="button" class="btn"><i class="far fa-file"></i> Prototype</button>
+                <button type="button" class="btn"><i class="far fa-file"></i> Final Prototype</button>
+                <button type="button" class="btn"><i class="far fa-file-pdf"></i> Presentation</button>
             </div>
         </section>
 
         <!-- Team -->
-        <section>
+        <section id="our-team">
+            <div class="section-content">
+                <h2>
+                    Our Team
+                </h2>
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                        <img src="img/nathan.jpg" alt="Nathan Magdalera">
+                        </div>
+                        <h3> Nathan Magdalera </h3>
+                        <p> Informatics Student </p>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="img/lynette.jpg" alt="Lynette Li">
+                        </div>
+                        <h3> Lynette Li </h3>
+                        <p> Sociology Student </p>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="img/chad.jpg" alt="Chad Ohta">
+                        </div>
+                        <h3> Chad Ohta </h3>
+                        <p> Informatics Student </p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
 </body>
 
