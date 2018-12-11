@@ -760,6 +760,10 @@ td, th {
   background: #f9fafc;
 }
 
+#document .row h2 {
+  margin: auto;
+}
+
 @media (max-width: 767px) {
   .no-flex-xs {
     display: block !important;
