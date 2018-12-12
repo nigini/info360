@@ -28,6 +28,8 @@
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
+	<link rel="icon" href="logo.jpg" type="image/x-icon" />
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -40,7 +42,7 @@
 	<!-- Header -->
 	<header id="home">
 		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
+		<div class="bg-img" style="background-image: url('./homeBg.jpg');">
 			<div class="overlay"></div>
 		</div>
 		<!-- /Background Image -->
@@ -69,20 +71,20 @@
 				<!--  Main navigation  -->
 				<ul class="main-nav nav navbar-nav navbar-right">
 					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#service">Services</a></li>
-					<li><a href="#pricing">Prices</a></li>
+					<li><a href="#pricing">The Problem / Our Mission</a></li>
+
+					<li><a href="#pricing">Features</a></li>
+					<li><a href="#portfolio">Types of Food</a></li>
+
+					<li><a href="#pricing">Design Process Insights</a></li>
+					<li><a href="#portfolio">Our Report</a></li>
+
+
 					<li><a href="#team">Team</a></li>
-					<li class="has-dropdown"><a href="#blog">Blog</a>
-						<ul class="dropdown">
-							<li><a href="blog-single.html">blog post</a></li>
-						</ul>
-					</li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#team">Common Questions</a></li>
+					<!-- <li><a href="#contact">Contact</a></li> -->
 				</ul>
 				<!-- /Main navigation -->
-
 			</div>
 		</nav>
 		<!-- /Nav -->
@@ -91,30 +93,26 @@
 		<div class="home-wrapper">
 			<div class="container">
 				<div class="row">
-
 					<!-- home content -->
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
-							<h1 class="white-text">We Are Creative Agency</h1>
-							<p class="white-text">Morbi mattis felis at nunc. Duis viverra diam non justo. In nisl. Nullam sit amet magna in
-								magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+							<h1 class="white-text">This is chefEats.</h1>
+							<p class="white-text">An App that Provides $3-7 healthy, nutricious meals that are made on the day of!
 							</p>
-							<button class="white-btn">Get Started!</button>
-							<button class="main-btn">Learn more</button>
+							<a href="#about"><button class="white-btn">Get Started!</button></a>
+							<!-- <button class="main-btn">Learn more</button> -->
 						</div>
 					</div>
 					<!-- /home content -->
-
 				</div>
 			</div>
 		</div>
 		<!-- /home wrapper -->
-
 	</header>
 	<!-- /Header -->
 
 	<!-- About -->
-	<div id="about" class="section md-padding">
+	<div id="about" class="about-padding">
 
 		<!-- Container -->
 		<div class="container">
@@ -124,17 +122,28 @@
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">Welcome to Website</h2>
+					<h2 class="title">Welcome to chefEats</h2>
 				</div>
 				<!-- /Section header -->
 
+				<div class="about-descr">
+					<p>This is an Application that is focused on providing healthy, affordable meals to busy individuals of lower to
+						middle class income. </p>
+
+				</div>
+
+				<p>The food is..</p>
+
 				<!-- about -->
 				<div class="col-md-4">
 					<div class="about">
-						<i class="fa fa-cogs"></i>
-						<h3>Fully Customizible</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-						<a href="#">Read more</a>
+						<!-- <i class="fa fa-cogs"></i> -->
+						<i class="fas fa-dog"></i>
+
+						<!-- <i class="fa fa-dollar-sign"></i> -->
+						<h3>CHEAP! :)</h3>
+						<p>We aim to have the price range from $3-8 (depends on tier of membership the customer chooses).</p>
+
 					</div>
 				</div>
 				<!-- /about -->
@@ -142,10 +151,10 @@
 				<!-- about -->
 				<div class="col-md-4">
 					<div class="about">
-						<i class="fa fa-magic"></i>
-						<h3>Awesome Features</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-						<a href="#">Read more</a>
+						<!-- <i class="far fa-lemon"></i> -->
+						<h3>NUTRICIOUS! :)</h3>
+						<p>Made from Raw Ingredients from the grocery store. The meal is made with nutrition in mind.</p>
+
 					</div>
 				</div>
 				<!-- /about -->
@@ -153,10 +162,10 @@
 				<!-- about -->
 				<div class="col-md-4">
 					<div class="about">
-						<i class="fa fa-mobile"></i>
-						<h3>Fully Responsive</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-						<a href="#">Read more</a>
+						<!-- <i class="fa fa-mobile"></i> -->
+						<h3>DELICIOUS!! :)</h3>
+						<p>Meals are cooked by certified chefs, that knows how to curate flavorful meals.</p>
+
 					</div>
 				</div>
 				<!-- /about -->
@@ -182,99 +191,16 @@
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">Featured Works</h2>
+					<h2 class="title">Prototype Example:</h2>
 				</div>
 				<!-- /Section header -->
 
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work1.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
+				<img class="examples" src="prototypes/signUp.png" alt="">
+				<img class="examples" src="prototypes/signInHome.png" alt="">
+				<img class="examples" src="prototypes/confirmOrderPage.png" alt="">
 
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work2.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work2.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
 
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work3.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work3.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
 
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work4.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work4.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work5.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work5.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
-
-				<!-- Work -->
-				<div class="col-md-4 col-xs-6 work">
-					<img class="img-responsive" src="./img/work6.jpg" alt="">
-					<div class="overlay"></div>
-					<div class="work-content">
-						<span>Category</span>
-						<h3>Lorem ipsum dolor</h3>
-						<div class="work-link">
-							<a href="#"><i class="fa fa-external-link"></i></a>
-							<a class="lightbox" href="./img/work6.jpg"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<!-- /Work -->
 
 			</div>
 			<!-- /Row -->
@@ -296,46 +222,48 @@
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">What we offer</h2>
+					<h2 class="title">How it Works</h2>
 				</div>
 				<!-- /Section header -->
 
 				<!-- service -->
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
+						<!-- <i class="fa fa-diamond"></i> -->
+						<h3>1. Select Meals from Chefs' Selection: </h3>
+						<p>These are certified, skilled chefs that are near your location, and have a selection ready for you! :)</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<!-- <i class="fa fa-rocket"></i> -->
+						<h3>2. Decide to Pick Up Food or Have it Delivered </h3>
+						<p> Pick Up (free): Make sure chef's address is close to you.</p>
+						<p> Delivery ($3 -$5): Will coste extra to get delivered.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<!-- <i class="fa fa-cogs"></i> -->
+						<h3>3. Order the Food</h3>
+						<p>Confirm which food items you would like from the chef and the quantity of each. </p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
 						<i class="fa fa-diamond"></i>
-						<h3>App Development</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
-				<!-- /service -->
-
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-rocket"></i>
-						<h3>Graphic Design</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
-				<!-- /service -->
-
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-cogs"></i>
-						<h3>Creative Idea</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
-				<!-- /service -->
-
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-diamond"></i>
-						<h3>Marketing</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+						<h3>4. Order Confirmation </h3>
+						<p> - This confirmation will be stored on your app for reference.</p>
+						<p> - It shows the pricing, quantity of meals, which meals, pickup time, delivery time </p>
 					</div>
 				</div>
 				<!-- /service -->
@@ -344,20 +272,12 @@
 				<div class="col-md-4 col-sm-6">
 					<div class="service">
 						<i class="fa fa-pencil"></i>
-						<h3>Awesome Support</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
+						<h3>Email / SMS Notification</h3>
+						<p>You will receive an email and text of when to pick up or when it will be delivered.</p>
 					</div>
 				</div>
 				<!-- /service -->
 
-				<!-- service -->
-				<div class="col-md-4 col-sm-6">
-					<div class="service">
-						<i class="fa fa-flask"></i>
-						<h3>Brand Design</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-					</div>
-				</div>
 				<!-- /service -->
 
 			</div>
@@ -430,7 +350,7 @@
 	<div id="numbers" class="section sm-padding">
 
 		<!-- Background Image -->
-		<div class="bg-img" style="background-image: url('./img/background2.jpg');">
+		<div class="bg-img" style="background-image: url('homeBg.jpg');">
 			<div class="overlay"></div>
 		</div>
 		<!-- /Background Image -->
@@ -511,7 +431,7 @@
 						<div class="price-head">
 							<span class="price-title">Basic plan</span>
 							<div class="price">
-								<h3>$9<span class="duration">/ month</span></h3>
+								<h3>$49.99<span class="duration">/ month</span></h3>
 							</div>
 						</div>
 						<ul class="price-content">
@@ -538,7 +458,7 @@
 						<div class="price-head">
 							<span class="price-title">Silver plan</span>
 							<div class="price">
-								<h3>$19<span class="duration">/ month</span></h3>
+								<h3>$99.99<span class="duration">/ month</span></h3>
 							</div>
 						</div>
 						<ul class="price-content">
@@ -565,7 +485,7 @@
 						<div class="price-head">
 							<span class="price-title">Gold plan</span>
 							<div class="price">
-								<h3>$39<span class="duration">/ month</span></h3>
+								<h3>$149.99<span class="duration">/ month</span></h3>
 							</div>
 						</div>
 						<ul class="price-content">
@@ -923,7 +843,7 @@
 
 					<!-- footer copyright -->
 					<div class="footer-copyright">
-						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+						<p>Copyright © 2017. All Rights Reserved.</p>
 					</div>
 					<!-- /footer copyright -->
 

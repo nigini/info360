@@ -41,6 +41,19 @@ Table OF Contents
 	General
 \*------------------------------------*/
 
+#about {
+    background-color: rgb(214, 255, 225);
+}
+
+.row {
+    text-align: center;
+}
+
+.examples {
+    width: 95%;
+    margin-bottom: 20px;
+    /* margin: 0 auto; */
+}
 
 /* -- typography -- */
 
@@ -189,7 +202,7 @@ ul, ol {
   	display:block;
   	height:4px;
   	width:40px;
-  	background-color: #6195FF;
+  	background-color: rgb(97, 255, 123);
     margin-top: 20px;
 }
 
@@ -627,9 +640,14 @@ header {
 .about {
     position: relative;
     text-align: center;
-    padding: 40px 20px;
+    padding: 20px 20px;
     border: 1px solid #EEE;
     margin: 15px 0px;
+    color: black;
+}
+
+.about-padding {
+    padding-top: 20px;
 }
 
 .about i {
@@ -661,7 +679,7 @@ header {
 }
 
 .about:hover h3 {
-    color: #fff;
+    color: rgb(255, 158, 158);
 }
 
 
@@ -1364,6 +1382,7 @@ header {
   background: #F4F4F4;
   color: #10161A;
 }
+
 
 .widget-tags a:hover {
   color: #FFF;
