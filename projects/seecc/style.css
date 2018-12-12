@@ -1752,3 +1752,7 @@ span.accor-open {
     width: auto; 
     height: 40px;
 }
+
+.hero-slide-content .slide-img {
+    margin-top: 0;
+}
