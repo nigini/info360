@@ -1,12 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta name="author" content="Nathan Magdalera, Chad Ohta, Lynette Li">
+    <meta name="description" content="Project Page">
+
+    <link rel="icon" type="image/png" href="./logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <title> MentorMe </title>
+
 </head>
+
+
 <body>
-    
+
+    <header id="nav-elements">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="#"><span class="logo"></span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#problem">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#application">The Application</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#process">Insight</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#documentation">Documents</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#our-team">About Us</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Title Section -->
+        <div id="title">
+            <div>
+                <h1>mentor<div id="me">me</div>
+                </h1>
+                <p>Helping first-generation students transition into college</p>
+            </div>
+        </div>
+
+        <!-- Problem -->
+        <section id="problem">
+            <div class="section-content">
+                <h2>The Problem</h2>
+                <p><strong>First-generation students</strong>, or students who are the first of their family to attend education past
+                    high-school, are shown to <strong>struggle graduating</strong> from the college setting.
+                    As first generation students, there is not much exposure or knowledge about the types of resources
+                    that other students utilize to succeed and benefit themselves. Even
+                    if students are aware of the resources available, understanding how to use them appropriately is
+                    another obstacle to overcome.
+                </p>
+            </div>
+        </section>
+
+        <!-- Solution -->
+        <section>
+            <div class="section-content">
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <h2>Our Solution</h2>
+                        <p><strong>MentorMe</strong> is a mentorship program turned into an application that focuses on
+                            addressing the
+                            information gap that arises amongst these first generation students. Our goal with
+                            this application is to give first generation students the opportunity to find mentors who
+                            can help
+                            them with their professional growth in the college setting.
+                        </p>
+                    </div>
+                    <div class="flex-item">
+                        <img class="screen" src="img/welcomeScreen.png" alt="Welcome Screen of mentor me">
+                    </div>
+                </div>
+        </section>
+
+        <!-- Features -->
+        <section  id="application">
+            <div class="section-content">
+                <h2>Features</h2>
+
+                <div>
+                    <div class="feature">
+                        <h3><strong>Create</strong> your preferences</h3>
+                        <p>In order to help you find the mentor who is your best fit, specifying your preferences will
+                            help
+                            us help you achieve those goals.
+                            Filter your mentee experience through our options of the educational level of the mentor,
+                            their
+                            degree/major, avaibility to meet with you,
+                            and any other hobbies or interests that may be of relevance to helping fostering your
+                            experience as a first-gen student.
+                        </p>
+                    </div>
+                    <div class="flex-container">
+                        <img class="feature-screen" src="img/filter1.png" alt="Mentor type">
+                        <img class="feature-screen" src="img/filter2.png" alt="Major or degree">
+                        <img class="feature-screen" src="img/filter3.png" alt="Availibility">
+                        <img class="feature-screen" src="img/filter4.png" alt="Hobbies and interests">
+                    </div>
+                </div>
+                <div class="feature flex-container">
+                    <div class="flex-item">
+                    <h3><strong>Search</strong> through a refined list</h3>
+                    <p>Our list of mentors are undergraduate students or graduate students from the
+                        University of Washington
+                        to guarantee that their experience is one that can provide you the best tools to develop
+                        professionally and professionally
+                        in your first few steps throughout the journey that is college.
+                    </p>
+                </div>
+                <div class="flex-item">
+                    <img class="screen" src="img/mentor-results.png" alt="Mentor results">
+                </div>
+                </div>
+                <div class="feature flex-container">
+                    <div class="flex-item">
+                        <img class="screen" src="img/mentor-me.png" alt="Confirm your selected mentor">
+                    </div>
+                    <div class="flex-item">
+                    <h3><strong>Choose</strong> your mentor</h3>
+                    <p>After sifting through our mentor list and viewing their experiences, select the mentor whose
+                        experience
+                        may benefit you the most. Enter a conversation with our in-built messaging system to learn more
+                        about how you and that mentor
+                        can create a mentee-mentor relationship that will help you succeed.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Process -->
+        <section id="process">
+            <div class="section-content">
+                <h2> Design Process Insights </h2>
+                <h3>Prototyping</h3>
+                <p> Throughout the prototyping phase we created a paper prototype that help to visualize and test out the functionality and process
+                    of our idea of the mentorship program. Upon recieving feedback from our paper prototype, we implemented changes such as removing 
+                    features such as a calendar and creating tasks to focus on pairing mentees and mentors.
+                </p>
+                <h3>Testing and Evaluations </h3>
+                <p> Walkthroughs, user-testing, and interviews were implemented throughout the prototyping process. Interviews helped us to understand if
+                    we were addressing our original problem. With walkthroughs and user-testing, We defined four tasks for users and our selves to evaluate
+                    such as signing-up/logging in, creating an account, communicating between mentees and mentors, and pairing up with eachother. Through
+                testing, we discovered that there wasn't enough flexibility within the application's structure.  </p>
+                <h3>Last Thoughts </h3>
+                <p> Throughout this process, we found that we missed out on a lot of low-level details during the prototyping phase and had
+                    to narrow down the functionality of the application to what we thought was the most important. Based upon that, we focused on elaborating
+                    and redefining the pairing process to ensure a more quality experience for mentees. If we were to go through this entire process again,
+                    taking into account the perspective of the mentor's side more would be one change we would focus on ensuring as we gave more priority to mentees
+                    in the design. 
+                </p>
+            </div>
+        </section>
+
+        <!-- Report -->
+        <section id="documentation">
+            <div class="section-content">
+                <h2> Documentation </h2>
+                <a target="_blank" class="button" href="https://docs.google.com/document/d/1WL0bwpqAdNILB9cuGgozRvVypn6yN4ZLc6xnYZNDnbY/edit?usp=sharing"><i class="far fa-file-alt"></i> Report</a>
+                <a target="_blank" class="button" href="./Paper Prototypes.pdf"><i class="far fa-file"></i> Paper Prototype</a>
+                <a target="_blank" class="button" href="https://invis.io/KBP6I1J36US#/screens"><i class="far fa-file"></i> Final Prototype</a>
+                <a target="_blank" class="button" href="./Powerpoint.pdf"><i class="far fa-file-pdf"></i> Presentation</a>
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section id="our-team">
+            <div class="section-content">
+                <h2>
+                    Our Team
+                </h2>
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <img src="img/nathan.jpg" alt="Nathan Magdalera">
+                        </div>
+                        <h3> Nathan Magdalera </h3>
+                        <p> Informatics Student </p>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="img/lynette.jpg" alt="Lynette Li">
+                        </div>
+                        <h3> Lynette Li </h3>
+                        <p> Sociology Student </p>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="img/chad.jpg" alt="Chad Ohta">
+                        </div>
+                        <h3> Chad Ohta </h3>
+                        <p> Informatics Student </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>

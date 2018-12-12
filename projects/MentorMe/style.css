@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  rgb(240, 230, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h1, h2, h3 {
+    color: rgb(126, 75, 187);
+}
+
+p {
+    color:#595959;
+}
+
+nav {
+    float: right;
+}
+
+main  {
+    padding-top: 5rem;
+}
+
+section {
+    display: block;
+}
+
+section p {
+    line-height: 2rem;
+}
+
+.section-content {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#title h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+#title p {
+    font-size: 2rem;
+    font-weight: 400;
+}
