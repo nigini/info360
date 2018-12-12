@@ -1,688 +1,563 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 
-		<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<title>ChefEats</title>
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
 
-		<link rel="stylesheet" href="style.css" />
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 
-		<title>INFO 360 Design Thinking</title>
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
 
-	</head>
-	<body>
-		
-		<!-- Anything with the tag QUARTERLY next to it has to be updated each quarter. -->
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12">
-	
-					<img src="images/design-thinking.png" class="img-responsive" />		
-					
-					<h1>INFO 360 Design Thinking</h1>
-					<!-- QUARTERLY -->
-					<div class="lead"><a href="http://nigini.me">Nigini Oliveira, Ph.D.</a>, TA: <a href="https://sonamsamel.wixsite.com/portfolio">Sonam Samel</a></div>
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
-					<p>
-						<a href="#schedule">Schedule</a>
-						&bull;
-						<a href="#grading">Grading</a>
-						&bull;
-						<a href="#activities">Activities</a>
-						&bull;
-						<a href="#reading">Reading</a>
-						&bull;
-						<a href="#midterm">Midterm</a>
-						&bull;
-						<a href="#project">Project</a>
-					</p>
-					
-					<p>In this class I'll teach you how to think like a designer. You'll learn what designers do, how they do it, and how to do some of the things they do. We'll focus on the design of user interfaces and information systems. By the end of the course you won't be a <i>great</i> designer, but you'll learn what you need to <i>practice</i> to become a great designer. This will empower you to learn more about design by engaging more deeply in the <a href="https://www.uxseattle.org/">Puget Sound UX design community</a>.</p>
-				
-					<p>The structure of this course is simple:</p>
-	
-					<ol>
-						<li>I teach you about design for 5 weeks through a series of readings and in-class practice.</li>
-						<li>A midterm to see how much you learned.</li>
-						<li>With a teammate, you design something useful for one of your classmates.</li>
-						<li>With a teammate, you write a design specification that details your design thoroughly.</li>
-						<li>With a teammate, you create a video prototype that communicates your design persuasively.</li>
-					</ol>
-										
-					<p>Sound good? Let's get started!</p>
-					
-					<!-- QUARTERLY -->
-					<h2>Office Hours</h2>
-					
-					<p>My office hours this quarter are <b>Wednesdays 10:00-12:00</b> at CSE 218. Please, write me at least 24 hours in advance to secure your 30 minutes slot. (If this does not work for you, talk to me after class or write me: we will figure something out.)</p>
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
-					<h2>Devices in Class</h2>
-					
-					<p>We will use smartphones and laptops throughout the quarter to facilitate activities and project work in-class. <b>However</b>, research and student feedback clearly shows that using devices on non-class related activities not only harms your own learning, but other students' learning as well. Therefore, I only allow device usage during activities that require devices. At all other times, you should not be using your device. I'll help you remember this by announcing when to bring devices out and when to put them away.</p>
-					
-					<h2 id="schedule">Schedule</h2>
-	
-					<table class="table table-striped text-left">
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
-						<tr><td colspan=2 class="text-uppercase lead">Week 1 &mdash; Introductions</td></tr>
-	
-						<tr>
-							<!-- QUARTERLY -->
-							<td>9/27 - <a href="assets/INFO360-01-Introduction.pdf">SLIDES</a></td>
-							<td>
-								<ul>
-									<li>Who is the team?</li>
-									<li>What is this class about?</li>
-									<li>What is it like to design?</li>
-									<li>Read syllabus + Q&A</li>
-								</ul>
-							</td>
-						</tr>
+	<link rel="icon" href="logo.jpg" type="image/x-icon" />
 
-						<tr><td colspan=2 class="text-uppercase lead">Week 2 &mdash; Design</td></tr>
-	
-						<tr>
-							<!-- QUARTERLY -->
-							<td>10/2</td>
-							<td>
-								<ul>
-									<li>Reading: 
-										<a href="readings/what-designers-do.html">What designers do</a> -
-										<a href="https://canvas.uw.edu/courses/1252980/assignments/4443179">[SUBMIT]</a>
-									</li>
-									<li>Activity: <a href="activities/careers.html">What do you want to do?</a> - 
-										<span style="color: red">[PREPARE]</span>
-									</li>
-									<li>Activity: <a href="activities/empathy.html">Empathy</a> - [ALL IN CLASS]</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<!-- QUARTERLY -->
-							<td>10/4</td>
-							<td>
-								<ul>
-									<li>Reading (30 min): <a href="readings/how-to-design.html">How to design</a></li>
-									<li>Activity (70 min): <a href="activities/paradigms.html">Compare two paradigms</a></li>
-								</ul>
-							</td>
-						</tr>
-	
-						<tr><td colspan=2 class="text-uppercase lead">Week 3 &mdash; User Research</td></tr>
-	
-						<tr>
-							<!-- QUARTERLY -->
-							<td>10/9</td>
-							<td>
-								<ul>
-									<li>Reading (30 min): <a href="readings/how-to-understand-problems.html">How to understand problems</a></li>
-									<li>Activity (80 min): <a href="activities/contextual-inquiry.html">Contextual inquiries</a></li>
-									<li>Activity (50 min): <a href="activities/interview.html">Interviews</a></li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<!-- QUARTERLY -->
-							<td>10/11</td>
-							<td>
-								<ul>
-									<li>Reading (30 min): <a href="readings/how-to-define-problems.html">How to define problems</a></li>
-									<li>Activity (80 min): <a href="activities/problem.html">Define a problem</a></li>
-								</ul>
-							</td>
-						</tr>
-	
-						<tr><td colspan=2 class="text-uppercase lead">Week 4 &mdash; Ideation and Prototyping</td></tr>
-	
-						<tr>
-							<!-- QUARTERLY -->
-							<td>10/16</td>
-							<td>
-								<ul>
-									<li>Reading (30 min): <a href="readings/how-to-be-creative.html">How to be creative</a></li>
-									<li>Activity (70 min): <a href="activities/creativity-context-brainstorming.html">Creativity in context</a></li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<!-- QUARTERLY -->
-							<td>10/18</td>
-							<td>
-								<ul>
-									<li>Reading (30 min): <a href="readings/how-to-prototype.html">How to prototype</a></li>
-									<li>Activity (70 min): <a href="activities/sketching.html">Sketching</a></li>
-								</ul>
-							</td>
-						</tr>
-	
-						<tr><td colspan=2 class="text-uppercase lead">Week 5 &mdash; User Interfaces and Critique</td></tr>
-	
-						<tr>
-							<!-- QUARTERLY -->
-							<td>10/23</td>
-							<td>
-								<ul>
-									<li>Reading (30 min): <a href="readings/how-to-design-user-interfaces.html">How to design user interfaces</a></li>
-									<li>Activity (80 min): <a href="activities/paper-prototype.html">Paper prototypes</a></li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<!-- QUARTERLY -->
-							<td>10/25</td>
-							<td>
-								<ul>
-									<li>Reading (30 min): <a href="readings/how-to-be-critical.html">How to be critical</a></li>	
-									<li>Activity (80 min): <a href="activities/critique.html">Critique</a></li>
-								</ul>
-							</td>
-						</tr>
-	
-						<tr><td colspan=2 class="text-uppercase lead">Week 6  &mdash; Evaluation</td></tr>
-	
-						<tr>
-							<!-- QUARTERLY -->
-							<td>10/30</td>
-							<td>
-								<ul>
-									<li>Reading (30 min): <a href="readings/how-to-evaluate-empircally.html">How to evaluate empirically</a></li>
-									<li>Activity (80 min): <a href="activities/user-test.html">Design and test an alarm clock</a></li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<!-- QUARTERLY -->
-							<td>11/2</td>
-							<td>
-								<ul>
-									<li>Reading (30 min): <a href="readings/how-to-evaluate-analytically.html">How to evaluate analytically</a></li>
-									<li>Activity (50 min): <a href="activities/heuristic-evaluation.html">Heuristic evaluation</a></li>
-									<!--li>Activity (45 min): <a href="activities/walkthroughs.html">Walkthroughs</a></a></li-->
-								</ul>
-							</td>
-						</tr>
-	
-						<tr><td colspan=2 class="text-uppercase lead">Week 7 &mdash; Define your Problem</td></tr>
-	
-						<tr>
-							<!-- QUARTERLY -->
-							<td>11/6</td>
-							<td>
-								<span style="color: red">Nigini is at <a href="http://cscw.acm.org/2018/">the CSCW Conference.</a> (??? teaches)</span>
-								<ul>
-									<li>Midterm (45 min): Did you learn everything from the last 5 weeks?</li>
-									<li>Discuss (20 min): <a href="#project">Project requirements</a></li>
-									<li>Teams (5 min): <a href="activities/form-teams.html">Pair up!</a></li>
-									<li>Activity (40 min): <a href="activities/plan-interview.html">Plan research</a></li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<!-- QUARTERLY -->
-							<td>11/8</td>
-							<td>
-								<span style="color: red">Nigini is at <a href="http://cscw.acm.org/2018/">the CSCW Conference.</a> (??? teaches)</span>
-								<ul>
-									<li>Activity (45 min): <a href="activities/conduct-interview.html">Research</a></li>
-									<li>Due: <a href="#project-problem">Problem definition</a> draft</li>
-									<li>Activity (110 min): <a href="activities/critique-problem.html">Critique problems, ideate solutions</a></li>
-								</ul>
-							</td>
-						</tr>
-	
-						<tr><td colspan=2 class="text-uppercase lead">Week 8 &mdash; Build Your Low-Fidelity Prototype</td></tr>
-	
-						<tr>
-							<!-- QUARTERLY -->
-							<td>11/13</td>
-<!--							<td>
-								<ul>
-									<li>NO CLASS, President's Day</li>
-								</ul>
--->
-							<td>
-								<ul>
-									<li>Due: Two low-fidelity prototypes</li>
-									<li>Activity (60 min): <a href="activities/prototype-workshop.html">Prototype workshop</a></li>
-									<li>Activity (30+60 min): <a href="activities/critique-prototypes.html">Prototype critique and iteration</a></li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<!-- QUARTERLY -->
-							<td>11/15</td>
-							<td>
-								<ul>
-									<li>Due: One low-fidelity prototype</li>
-									<li>Activity (110 min): <a href="activities/critique-prototype.html">Prototype critique and iteration</a></li>
-								</ul>
-							</td>
-						</tr>
-	
-						<tr><td colspan=2 class="text-uppercase lead">Week 9 &mdash; Build Your High-Fidelity Prototype</td></tr>
-	
-						<tr>
-							<!-- QUARTERLY -->
-							<td>11/20</td>
-							<td>
-								<ul>
-									<li>Due: High-fidelity prototype</li>
-<!-- 									<li>Activity (110 min): <a href="activities/usability-test.html">Usability test</a></li> -->
-									<li>Activity (110 min): Evaluate and plan</li>
-									<ul>
-										<li>Select a method: interviews, usability test, heuristic evaluation, <a href="activities/gendermag-walkthrough.html">GenderMag walkthrough</a>, or any other appropriate method</li>
-										<li>Gather evidence</li>
-									</ul>
-									<li>Activity (50 min): <a href="activities/brainstorm-limitations.html">Brainstorm limitations</a></li>
-								</ul>
-							</td>
-						</tr>
-						<!-- QUARTERLY -->
-						<tr class="alert-danger">
-							<td>11/22</td>
-							<td>
-								<ul>NO CLASS, Thanks Giving</ul>
-<!--								<ul>
-									<li>Activity (110 min): <a href="activities/video-storyboarding.html">Video storyboarding</a></li>
- 									<li>Activity (50 min): <a href="activities/writing-workshop-2.html">Specification writing workshop</a></li> -->
-								</ul>
-							</td>
-						</tr>
-	
-					<tr><td colspan=2 class="text-uppercase lead">Week 10 &mdash; Write your Specification</td></tr>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
 
- 						<tr>
-							<td>11/27</td>
-							<td>
-								<ul>
-									<li>Discuss midterm answers (15 min)</li>
-									<li>Activity (110 min): Testing and Improving Design
-								</ul>
-							</td>
-
-						</tr>
-	
- 						<tr>
-							<td>11/29</td>
-							<td>
-								<ul>
-									<li>Discuss midterm results (15 min)</li>
-									<li>Due: <a href="#project-solution">Solution description</a> draft</li>
-									<li>Activity (110 min): <a href="activities/critique-details.html">Specification critique</a></li>
-								</ul>
-							</td>
-
-						</tr>
-<!--						<tr>
-							<td>3/6</td><td>Lab</td>
-							<td>
-								<ul>
-									<li>Activity (50 min): <a href="activities/brainstorm-limitations.html">Brainstorm limitations</a></li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-
-							<td>11/29</td>
-							<td>
-								<ul>
-									<li>Activity (110 min): <a href="activities/video-storyboarding.html">Video storyboarding</a></li>
-								</ul>
-							</td>
-						</tr>
--->	
-						<tr><td colspan=2 class="text-uppercase lead">Week 11 &mdash; Present your design</small></td></tr>
-						
-						<tr>
-							<!-- QUARTERLY -->
-							<td>12/4</td>
-							<td>
-								<ul>
-									<li>Course evaluation reminder</li>
-									<li><a href="assets/INFO360-Presentation.pdf">Project presentation guidelines</a></li>
-<!--
-									<li>Reading (20 min): <a href="readings/how-to-design-for-markets.html">How to design for markets</a>
-									<li>Activity (90 min): <a href="activities/markets.html">Market simulation</a></li>
--->
-									<li>Activity (110 min): Designing your Project website and create a pull request.
-									<!--a href="activities/workshop.html">Video and specification workshop</a-->
-									</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<!-- QUARTERLY -->
-<!--							<td>3/6</td><td>Lab</td>
-							<td>
-								<ul>
-									<li>Activity (50 min): <a href="activities/workshop.html">Video and specification workshop</a></li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
--->
-							<!-- QUARTERLY -->
-							<td>12/6</td>
-							<td>
-								<ul>
-									<li>Project presentations (<a href="assets/INFO360-Presentation.pdf">Guidelines</a>)</li>
-								</ul>
-							</td>
-						</tr>
-	
-						<tr><td colspan=2 class="text-uppercase lead">Finals week: Online peer-evaluation</td></tr>
-	
-						<tr>
-							<!-- QUARTERLY -->
-							<td>12/11, time 6 pm</td>
-							<td>
-								<ul>
-									<li><a href="#project-specification">Design specification</a> due (<a href="https://canvas.uw.edu">upload to Canvas</a>)</li>
-									<li>Website: no new pull requests will be accepted.</li>
-								</ul>
-							</td>
-						</tr>							
-						<tr>
-							<!-- QUARTERLY -->
-							<td>12/13, time 6 pm</td>
-							<td>
-								<ul>
-									<li>Project peer evaluations due 
-									(<a href="">fill out survey</a>)</li>
-								</ul>
-							</td>
-						</tr>							
-	
-					</table>
-	
-					<h2 id="grading">Grading</h2>
-	
-					<p>There are <b>100 points</b> you can earn in this class:
-					
-					<ul>
-						<li><a href="#activities">Activities</a> (30 points, 1 point each). Engage to get credit.</li>
-						<li><a href="#reading">Reading</a> (20 points, 2 points each). Prove you read and understood the reading.</li>
-						<li><a href="#midterm">Midterm</a> (20 points). Prove you know and can do everything in the first 5 weeks of the class.</li>
-						<li><a href="#project-specification">Design specification</a> (20 points, <i>team score</i>). Prove you can design something that solves a problem.</li>
-						<li><a href="#project-site">Project site</a> (10 points, <i>team score</i>). Prove you can persuade someone that you solved a problem.</li>
-					</ul>
-										
-					<p>After mathematically rounding your points to the nearest point, I'll map your points to a 4.0 scale using the table below.</p>
-					
-					<table class="table table-striped">
-						<tr><td>&ge;95</td><td>4.0</td><td>&ge;88</td><td>3.3</td><td>&ge;81</td><td>2.6</td><td>&ge;74</td><td>1.9</td><td>&ge;67</td><td>1.2</td></tr>
-						<tr><td>&ge;94</td><td>3.9</td><td>&ge;87</td><td>3.2</td><td>&ge;80</td><td>2.5</td><td>&ge;73</td><td>1.8</td><td>&ge;66</td><td>1.1</td></tr>
-						<tr><td>&ge;93</td><td>3.8</td><td>&ge;86</td><td>3.1</td><td>&ge;79</td><td>2.4</td><td>&ge;72</td><td>1.7</td><td>&ge;65</td><td>1.0</td></tr>
-						<tr><td>&ge;92</td><td>3.7</td><td>&ge;85</td><td>3.0</td><td>&ge;78</td><td>2.3</td><td>&ge;71</td><td>1.6</td><td>&ge;64</td><td>0.9</td></tr>
-						<tr><td>&ge;91</td><td>3.6</td><td>&ge;84</td><td>2.9</td><td>&ge;77</td><td>2.2</td><td>&ge;70</td><td>1.5</td><td>&ge;63</td><td>0.8</td></tr>
-						<tr><td>&ge;90</td><td>3.5</td><td>&ge;83</td><td>2.8</td><td>&ge;76</td><td>2.1</td><td>&ge;69</td><td>1.4</td><td>&ge;62</td><td>0.7</td></tr>
-						<tr><td>&ge;89</td><td>3.4</td><td>&ge;82</td><td>2.7</td><td>&ge;75</td><td>2.0</td><td>&ge;68</td><td>1.3</td><td>&le;61</td><td>0.0</td></tr>
-					</table>
-	
-					<p>Note that 70% of your grade is individual and 30% is team. If you do perfectly on the individual parts of the class and contribute nothing to the project, you can't pass the class. So be a good design partner!
-	
-					<p><strong>Late work receives no credit</strong>. There are some exceptions:</p>
-
-					<ul>					
-						<li>If you can provide a note from a health care professional documenting the reason for your absence, I may accept late submissions (but not for activities, since those can't be reproduced).</li>
-						<li>You can <strong>miss up to 3 activities</strong> without penalty and without documentation. This should be enough to allow for sickness, unavoidable travel, or other personal matters.</li>
-						<li>If you miss a reading quiz, you can make up the quiz credit by sending a critique of the reading to me within a week of the due date that reports at least three improvements to the content, including high level issues such as topics that should be discussed or points you think are wrong, to low level issues including spelling, grammar, or clarity.</li>
-					</ul>
-
-					<h2 id="activities">Activities</h2>
-					
-					<p>Each day in class we'll practice some skill. You'll get <a href="#grading">1 point</a> if you engage in and complete the activity. How to get credit for the activity will depend on the activity; sometimes being present will be enough, sometimes being to class on time will be enough, and sometimes you'll have to turn something in. Because there aren't exactly 30 class periods in class, the total number of points you receive will be scaled to 30 points as follows: <code>(30 x (# activity points earned) / (# of activity points possible))</code>.</p>
-					
-					<h2 id="reading">Reading</h2>
-					
-					<p>Readings are due twice a week, and each time, involve reading two things: 1) the chapter from <a href="https://faculty.washington.edu/ajko/books/design-methods/index.html">Andy Ko's open book</a> pointed our in our schedule and 2) something related to the chapter, selected from links in the chapter, or from anything else in the world (but you have to find it).
-					
-					<p>The day that each reading is due, we'll do the following:</p>
-					
-					<ul>
-						<li>Share what you're confused about.</li>
-						<li>We clarify confusions.</li>
-						<li>I give you a question to answer individually about the assigned reading.</li>
-						<li>You spend 5 minutes writing a polished answer, using only the knowledge in your head.</li>
-						<li>You turn in your answer.</li>
-						<li>You discuss your answer with your neighbor.</li>
-						<li>We discuss the correct answer as a class.</li>
-					</ul>
-					
-					<p>If your answer is correct, you'll receive <a href="#grading">1 point</a>. I will give partial credit for partially correct answers, at my discretion.</p>
-					
-					<p>Your selected reading assignment is <i>your</i> choice. Before class, read <b>one</b> of the articles linked in the reading <b>or</b> choosing something design-related book, blog post, magazine article, newspaper article, or online video that that is relevant to the topic of the chapter. If you choose a book, it's okay to just read the first chapter of the book. For your additional 1 point of reading credit, submit to Canvas a summary of no more than 500 words that:</p>
-					
-					<ul>
-						<li>Summarizes the point of the article.</li>
-						<li>Describes the thing you found most interesting about the article.</li>
-						<li>Includes a citation to what you read.</li>
-					</ul>
-					
-					<p>In class, after we discuss the assigned reading, we will:</p>
-					
-					<ul>
-						<li>Break into groups of four</li>
-						<li>Discuss your selected readings as a group, identifying one insight from the readings that connect with the topic of the day to share with the class</li>
-						<li>Elect someone to share the insights with the class.</li>
-						<li>We'll hear from 3-4 groups about their most interesting insight.</li>
-					</ul>
-	
-					<h2 id="midterm">Midterm</h2>
-					
-					<!--p>The midterm will be the same exam that I gave you on the first day of class. It will cover every topic in the assigned readings and every skill practiced in class. The midterm score will not be curved or scaled; however, any questions that more than 80% of students in the class get wrong will be excluded from the final score as they were likely confusing or concerned material that I poorly taught.</p-->
-					
-					<p>The purpose of the midterm is to find out what you know, not to penalize you for not knowing something. To this end, for every question you get wrong on the midterm, you can earn half the credit you lost by submitting to Canvas, for each problem:</p>
-					
-					<ol>
-						<li>The question</li>
-						<li>Your answer</li>
-						<li>How many points you lost on the answer</li>
-						<li>Why your answer was wrong</li>
-					</ol>
-					
-					<p>If your explanation is correct, you'll receive half of your points back. You'll submit these on Canvas no later than 2 weeks after the midterm.</p>
-					
-					<h2 id="project">Project</h2>
-
-					<p>When choosing a problem to solve, it's tempting to choose something incremental and familiar. Make a better Facebook. Make choosing dinner easier. Fine-tune students' task management. While these are all worthwhile problems, they all tackle relatively minor inconveniences. This quarter, I want you to tackle big, wicked problems with simple designs.</p>
-
-					<p>Therefore, the project theme for this quarter is:</p>
-					
-					<center><p style="font-size:xx-large;font-variant:small-caps"><a href="https://en.wikipedia.org/wiki/Structural_inequality">structural inequalities</a></p></center>
-					
-					<p>That's a big phrase, but it actually refers to something quite simple: sometimes, our institutions are built in a way that leads some people in society have unequal status, opportunities, and resources. Some structural inequalities are just unintended side effects of society evolving over time (e.g., English is the single dominant language in America, which creates barriers for non-English speakers). Other structural inequalities are intentional (e.g., creating a law that prohibits public signs from being in languages other than English).</p>
-
-					<p>Because this is a class about the design of information, information technology, and information systems, we'll be focusing on structural inequalities that arise from <strong>information gaps</strong>. Here are some examples of information gaps, and how they result in structural inequalities:</p>
-					
-					<ul>
-						<li>Many youth in rural areas are less aware of high-paying careers because there are few people who have those careers in their community. This results in youth not developing interest in those careers, and not pursuing those careers, ultimately reinforcing a cycle of poverty.</li>
-						<li>Youth whose parents did not go to college often lack knowledge about what it takes to get into college, such as the importance of Advanced Placement classes, extracurricular activities, and other factors in admissions. This lowers chances of admission to college, limiting educational attainment among low socioeconomic status youth.</li>
-						<li>Many low-income youth assume that college is too expensive, and do not know that there is substantial financial aid available to heavily subsidize their education. This deters students from pursuing college, reinforcing poverty.</li>
-						<li>Many K-12 schools now communicate critical information about student learning and experiences via email, but 13% of U.S. families do not have access to the internet. This disempowers parents from supporting and advocating for their children at school.</li>
-						<li>Students who are blind or low vision often perceive a lack of accommodations in introductory computer science classes and assume the rest of the classes in the major will be similarly unsupportive. This results in students with disabilities avoiding becoming CS majors, resulting in an extremely low percentage of software engineers who are blind or low vision.</li>
-						<li>In the U.S., nearly all teaching and teaching materials are in English. Therefore, students who do not speak English as their native language must put forth more effort in classes to succeed than students who are native English speakers.</li>
-					</ul>
-					
-					<p>For the project, you will form a team <b>two or three</b> classmates and:</p>
-					
-					<ol>
-						<li>Investigate a structural inequality</li>
-						<li>Identify informations gaps that cause that inequality</li>
-						<li>Articulate your understanding of that information gap</li>
-						<li>Become an <em>expert</em> on that problem through interviews and research</li>
-						<li>Ideate solutions to the problem
-						<li>Prototype solutions to the problem</li>
-						<li>Detail one solution in the form of a design specification</li>
-						<li>Communicate the solution as an interactive prototype (and/or a video).</li>
-						<li>Evaluate the solution your classmates designed for you.</li>
-					</ol>
-
-					<!--p>This process has elements of human-centered design (in that it studies problems to inform design).</p-->
-										
-					<p>What counts as good design? <b>Anything that actually addresses the problem an underserved population has</b> is acceptable.</p>	
-					
-					<h3>Prototypes</h3>
-					
-					<p>If you wish to quickly convey what your design does, try creating a <a href="http://www.storyboardthat.com">storyboard</a>. You can also use <a href="https://slickplan.com/">site mapping tools</a> to lay out the relationships between pages in a site or application.</p>
-
-					<p>As part of creating the specification and video prototypes below, you'll need to create high-fidelity prototypes of your designs. If you're doing screen-based user interface design, I recommend using some combination of the following tools, which are based on decades of HCI research on rapid prototyping:</p>
-					
-					<ul>
-						<li><a target="_blank" href="https://www.invisionapp.com/">InVision</a> for its strong collaboration and workflow support</li>
-						<li><a target="_blank" href="https://www.omnigroup.com/omnigraffle">OmniGraffle</a> or other diagramming tools to create medium-fidelity screens.</li>
-						<li><a target="_blank" href="https://prottapp.com/">Prott</a> or other similar tools for high-fidelity web, iOS, or Android designs</li>
-						<li><a target="_blank" href="https://www.axure.com/">Axure</a> for more interactive, data-driven prototypes</li>
-						<li><a target="_blank" href="https://www.moqups.com/">Moqup</a> for interactive prototypes</li>
-						<li><a target="_blank" href="https://www.mockplus.com/">MockPlus</a> for interactive prototypes</li>
-						<li><a target="_blank" href="https://www.marvelapp.com/">Marvel</a> for simpler collaboration around static prototypes</li>
-						<li><a target="_blank" href="https://balsamiq.com/">Balsamiq</a> for lower-fidelity interactive prototypes.</li>
-						<li><a target="_blank" href="https://figma.com/">Figma</a> for collaborative web-based prototyping.</li>
-						<li><a target="_blank" href="http://www.adobe.com/products/xd.html">Adobe XD</a>, a powerful experience design tool</li>
-					</ul>
-					
-					<p>There are also many simple, quick tools for making basic graphic design choices about <a target="_blank" href="https://fonts.google.com/">fonts</a>, <a target="_blank" href="https://color.adobe.com/explore/most-used/?time=all">colors</a>, and <a target="_blank" href="https://thenounproject.com/">icons</a>. You shouldn't have to use advanced graphic design tools like Adobe Illustrator, Photoshop, or Experience Design in this class. If you already know them, feel free to use them, but they have learning curves that are a bit too high to excel with them. That said, if you want a challenge, find someone who can tutor you and dive in!</p>
-
-					<h3 id="project-specification">Specification</h3>
-	
-					<p>The point of a design specification is to document all of the <b>decisions</b> you've made about your design, from the high level details about the problem it is solving and how, to the low level details about fonts, colors, and layout. Your <b>audience</b> for a design specification is an <b>engineer</b> whose job it is to build your design. A great specification is unambiguous and carefully argued so that the engineer knows exactly what to make, doesn't have to do any design themselves, and doesn't decide to change any of your design choices.</p>
-					
-					<p>Here are two examples of specifications that scored higher than a 90%:</p>
-					
-					<ul>
-						<li><a href="assets/LikeMe.pdf">LikeMe</a></a></li>
-						<li><a href="assets/NotificationHub.pdf">NotificationHub</a></li>
-					</ul>
-					
-					<p>Both are simple, clear, concise, and well-argued.</p>
-					
-					<p>Your design specification must have the following sections:</p>
-					<ul>
-						<li id="project-problem"><b>Problem</b>. This section must be a sequence of paragraphs, each with a topic sentence, that 1) convinces a reader that a problem exists in the world, 2) convinces them that no existing solution solves it, 3) teaches the reader what causes the problem, and 4) isolates which cause you're going to address through design. In doing this, you must use one or more of the following forms of evidence to substantiate your claims about the problem:</li>
-						<ul>
-							<li>One or more research papers supporting claims about the problem.</li>
-							<li>One or more existing solutions that fail to address the problem.</li>
-							<li>Evidence from your own user research</li>
-						</ul>
-						<li id="project-solution"><b>Solution</b>. This section must detail every <strong>design decision</strong> necessary for engineering your solution, including every screen, every error, every algorithmic functionality, and every detail about the textual and visual content of your design (aside from content created by users). How much detail is enough?</li>
-						<ul>
-							<li>If your solution involves software, a software engineer should be able to read your specification and build your solution without asking you any questions. This means providing two classes of specification: what information to <em>compute</em> (but not how) and what to information to <em>store</em> (but not how). For example, if you have an application that is going to compute a recommendation, you must specify exactly what kind of recommendations the system will compute with example data and data structures, but no details about algorithms for computing it. Additionally, you must give <strong>design rationale</strong> for major decisions of your design ensuring that the engineer who builds it doesn't change your decision. This might come in the form of empirical evidence, a citation to a research paper, or a convincing argument. "Major" decisions include anything that influences how well your design addressing your problem. For example, for most designs, the color you choose to render a button won't influence a design's merits.</li>
-							<li>If your solution involves content (e.g., words on a website), you should specify the <em>information architecture</em> of the content, including different categories of content, how it will be organized on a site, how much of it needs to be created, how it will be created, and give examples for each kind of content. This provides enough detail for someone to generate the content according to your specifications without you having to create the content for the specification. Just as with software, you must give <strong>design rationale</strong> for major information architecture decisions, ensuring the content writers don't change your decisions.</li>
-						</ul>
-						<li id="project-evaluation"><b>Evaluation</b>. This section must present some form of <b>empirical evidence</b> of the quality of your design. This might be an interview with an expert on the problem you studied, a series of interviews with representative users about the utility of the design, or a some other form of investigation about how well your solution addressed your problem. The only requirement for the evaluation is that you do more than nothing.</li>
-						<li id="project-limitations"><b>Limitations</b>. This section must detail all of the ways in which your design does <b>not</b> work, including who it doesn't work for, the situations it doesn't work in, and the assumptions it makes about how someone uses it for the design to effectively address the problem. A good limitations section is thorough and transparent, critically discussing the major ways in which the design can fail.</li>
-						<li id="project-references"><b>References</b>. This section should include all scholarly publications and websites you cited in the main text of your specification.</li>
-					</ul>
-
-					<p>Throughout, you should include annotated mockups of all of the screens in your design, where appropriate for clarity.</li>
-					
-					<p>Your specification must satisfy the following formatting constraints:</p>
-					
-					<ul>
-						<li>8.5"x11" PDF</li>
-						<li>1-inch margins</li>
-						<li>11 pt for body and larger for headers.</li>
-						<li>Figures and Tables must include numbered captions (e.g., Figure 6).</li>
-						<li>The text should cite figures explicitly (e.g., "as Figure 6 shows...").</li> 
-						<li>Single column.</li>
-						<li>Single spaced.</li>
-						<li>Cover page with names, team name from Canvas, and optional name of design.</li>
-						<li>To ensure brevity, your entire document should be roughly 2,500 words. Don't worry about being lower this limit exactly; just recognize that the more over it you go, the more likely you're not being concise, and will likely fatigue your poor instructors.</li>
-					</ul>
-					
-					<p>Write your specification in Google Docs. This simplifies obtaining feedback from peers and from the TA and I.</p>
-
-					<h4 id="project-grading">Grading</h4>
-
-					<p>Your specifications are worth <strong>20 points</strong>. We will grade your specifications by deducting a certain number of points for flaws that detract from the completeness, clarity, and convincing qualities of your specification (the words in caps are the shorthand we'll use in final grading):</p>
-	
-					<table class="table table-striped">
-						<tr><td colspan="3"><strong>Problem</strong></td></tr>
-						<tr><td>-0.5 points</td><td>LOGIC</td><td>Illogical claim.</td></tr>
-						<tr><td>-0.5 points</td><td>SUPPORT</td><td>Unsubstantiated claim. Cite research, critique a design critique, or describe user research.</td></tr>
-						<tr><td>-0.5 points</td><td>PRIOR</td><td>Overlooked existing solution to problem.</td></tr>
-						<tr><td colspan="3"><strong>Solution</strong></td></tr>
-						<tr><td>-0.5 points</td><td>DETAIL</td><td>Missing detail that engineer would have to design.</td></tr>
-						<tr><td>-0.5 points</td><td>AMBIGUITY</td><td>Ambiguous design detail.</td></tr>
-						<tr><td>-0.5 points</td><td>REASON</td><td>Missing or unconvincing rationale for a design detail.</tr>
-						<tr><td colspan="3"><strong>Limitations</strong></td></tr>
-						<tr><td>-0.5 points</td><td>LIMITATION</td><td>Missing limitation in design.</tr>
-						<tr><td colspan="3"><strong>Presentation</strong></td></tr>
-						<tr><td>-0.25 points</td><td>ORGANIZATION</td><td>Content that can't be understood without reading later parts of the document.</td></tr>
-						<tr><td>-0.25 points</td><td>CLUTTER</td><td>Visual design clutter in mockup.</td></tr>
-						<tr><td>-0.25 points</td><td>TYPO</td><td>Spelling or grammar issues.</td></tr>
-						<tr><td>-0.25 points</td><td>REDUNDANT</td><td>Repetitive content.</td></tr>
-						<tr><td>-0.25 points</td><td>LAYOUT</td><td>Cluttered document formatting.</td></tr>
-						<tr><td>-0.25 points</td><td>FORMAT</td><td>Violation of a formatting rule.</td></tr>
-					</table>
-	
-					<p>This will be a <b>team</b> grade. I expect your effort to be comparable, but your contributions to be complementary. If for some reason you feel that it should <b>not</b> be a team grade&mdash;because efforts were not comparable&mdash;you can write me a statement of 500 words or fewer providing background on why a team grade would not be fair. This statement is due at the same time as the specification and should be sent to me via email. If you submit such a statement, I will immediately reach out to your teammate for their response to your statement, to make sure that the grades we do assign accurately reflect contributions.</p>
-
-					<h4 id="feedback">Feedback</h4>
-					
-					<p>Any design process, including the design of a document, requires feedback to achieve excellence. There are three ways you can get feedback on your design specification:</p>
-					
-					<ol>
-						<li><b>From peers in class</b>. Built in to the course are several opportunities to get feedback from your classmates.</li>
-						<li><b>From me and the TA during class</b>. Ask me or the TA for feedback during open work time in class. There will be many times where you're working closely with your team during class time; find us, ask for feedback, and we'll provide it on the spot.</li>
-						<li><b>From your reader via Google Docs</b>. We'll assign either me <strong>or</strong> the TA as your <em>reader</em>. You can ask for feedback <b>once</b> from one of us before the deadline. To request feedback, email a link to your specification Google Doc with commenting enabled to either me or the TA and we'll will read the section you requested, providing detailed critique of the content. We'll do this within 24 business hours (counted as 9-5, Monday through Friday, excluding university holidays) of receiving the request to ensure you have time to revise your draft and get more feedback. Because of holidays and weekends, plan your requests carefully.</li>
-					</ol>
-
-					<h3 id="project-site">Website</h3>
-	
-					<p>We want you to create a presentation of your ideas. This should look professional and be something you would consider including in a design portfolio. What should it have?</p>
-
-					<table class="table table-striped">
-						<tr><td>2 points</td><td>Basics</td><td>Logo, Title, Proposition</td></tr>
-						<tr><td>4 points</td><td>Content</td><td>Problem, Features, Design process insights, Link to report</td></tr>
-						<tr><td>4 points</td><td>Presentation</td><td>Looks great, nice images, minimal and appropriate text</td></tr>
-					</table>
-
-					<p>Some nice examples (these are from a quarter long project):</p>
-					<ul>
-						<li><a target="_blank" href="https://courses.cs.washington.edu/courses/cse440/18wi/projects/foundintranslation/">Found in Translation</a></li>
-						<li><a target="_blank" href="https://courses.cs.washington.edu/courses/cse440/18wi/projects/auvi/">AuVi</a></li>
-						<li><a target="_blank" href="https://courses.cs.washington.edu/courses/cse440/17au/projects/speechbubble/">Speech Bubble</a></li>
-					</ul>
-
-					<h3 id="project-video">Video (Optional)</h3>
-					
-					<p>Video prototypes use the magic of editing to help someone else understand the problem you are solving and see how your solution would solve it.</p>
-
-					<p>ALERT: If your solution do not allow for an interactive prototype (like, you are building voice-based interactions or an non-digital solution, you will have to produce a video to present the solution in action.</p>
-					
-					<p>The video should not be more than 3 minutes long, and has do be uploaded to YouTube (or your favorite video platform). It should preferably be publicly accessible, but can be password protected if you're shy! =)</p>
-										
-					<p>Here are several examples of solid video prototypes that clearly convey a problem and solution through a concrete narrative. Note that none of these are framed as advertisements or product walkthroughs. They all focus on a person's problem and how the design helped them address their problem:</p>
-					
-					<ul>
-						<li><a target="_blank" href="assets/Boreometer.mp4">Boreometer</a></li>
-						<li><a target="_blank" href="assets/video-example.m4v">Leadr</a></li>
-						<li><a target="_blank" href="assets/video-example2.m4v">MyMajor</a></li>
-					</ul>
-					
-					<p>We'll grade your team's video as follows:</p>
-					
-					<table class="table table-striped">
-						<tr><td>2 points</td><td>Problem clarity</td><td>2 points for a problem that is concretely illustrated<br>1 point for a problem that is abstractly illustrated<br>0 points for a problem that is not illustrated at all</td></tr>
-						<tr><td>2 points</td><td>Motive realism</td><td>2 points for character actions with entirely plausible motives<br>1 point for some actions with unclear motivation<br>0 points for character actions that were almost entirely unrealistic</td></tr>
-						<tr><td>2 points</td><td>Solution clarity</td><td>2 points for no ambiguity about how the solution addresses the problem<br>1 point for some clarity about how the solution helps, but some ambiguities<br>0 points for solution that has no apparent relationship to the problem.</td></tr>
-						<tr><td>2 points</td><td>Seamless A/V</td><td>2 points for flawless A/V that supported communication<br>1 point for some A/V issues that disengaged the viewer</br>0 points for a video so full of A/V issues it was hard to focus on the story.</td></tr>
-						<tr><td>2 points</td><td>Length</td><td>0 points for videos over 3 minutes in length.</td></tr>
-					</table>
-					
-					<p>This will be a <b>team grade</b>. I expect your effort to be comparable, but your contributions to be complementary. If for some reason you feel that it should <b>not</b> be a team grade&mdash;because efforts were not comparable&mdash;you can write me a statement of &lt;500 words or fewer providing background on why a team grade would not be fair. This statement is due at the same time as the video and should be sent to me via email. If you submit such a statement, I will immediately reach out to your teammate for their response to your statement, to make sure that the grades we do assign accurately reflect contributions.</p>
-					
-				</div>
-			</div>		
+<body>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./homeBg.jpg');">
+			<div class="overlay"></div>
 		</div>
-	</body>
+		<!-- /Background Image -->
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="logo.jpg" alt="logo">
+
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#pricing">The Problem / Our Mission</a></li>
+
+					<li><a href="#pricing">Features</a></li>
+					<li><a href="#portfolio">Types of Food</a></li>
+
+					<li><a href="#pricing">Design Process Insights</a></li>
+					<li><a href="#portfolio">Our Report</a></li>
+
+
+					<li><a href="#team">Team</a></li>
+					<li><a href="#team">Common Questions</a></li>
+					<!-- <li><a href="#contact">Contact</a></li> -->
+				</ul>
+				<!-- /Main navigation -->
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">This is chefEats.</h1>
+							<p class="white-text">An App that Provides $3-7 healthy, nutricious meals that are made on the day of!
+							</p>
+							<a href="#about"><button class="white-btn">Get Started!</button></a>
+							<!-- <button class="main-btn">Learn more</button> -->
+						</div>
+					</div>
+					<!-- /home content -->
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+	</header>
+	<!-- /Header -->
+
+	<!-- About -->
+	<div id="about" class="about-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Welcome to chefEats</h2>
+				</div>
+				<!-- /Section header -->
+
+				<div class="about-descr">
+					<p>This is an Application that is focused on providing healthy, affordable meals to busy individuals of lower to
+						middle class income. </p>
+
+				</div>
+
+				<p>The food is..</p>
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<!-- <i class="fa fa-cogs"></i> -->
+						<i class="fas fa-dog"></i>
+
+						<!-- <i class="fa fa-dollar-sign"></i> -->
+						<h3>CHEAP! :)</h3>
+						<p>We aim to have the price range from $3-8 (depends on tier of membership the customer chooses).</p>
+
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<!-- <i class="far fa-lemon"></i> -->
+						<h3>NUTRICIOUS! :)</h3>
+						<p>Made from Raw Ingredients from the grocery store. The meal is made with nutrition in mind.</p>
+
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<!-- <i class="fa fa-mobile"></i> -->
+						<h3>DELICIOUS!! :)</h3>
+						<p>Meals are cooked by certified chefs, that knows how to curate flavorful meals.</p>
+
+					</div>
+				</div>
+				<!-- /about -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /About -->
+
+
+	<!-- Portfolio -->
+	<div id="portfolio" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Prototype Example:</h2>
+				</div>
+				<!-- /Section header -->
+
+				<img class="examples" src="prototypes/signUp.png" alt="">
+				<img class="examples" src="prototypes/signInHome.png" alt="">
+				<img class="examples" src="prototypes/confirmOrderPage.png" alt="">
+
+
+
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Portfolio -->
+
+	<!-- Service -->
+	<div id="service" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">How it Works</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<!-- <i class="fa fa-diamond"></i> -->
+						<h3>1. Select Meals from Chefs' Selection: </h3>
+						<p>These are certified, skilled chefs that are near your location, and have a selection ready for you! :)</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<!-- <i class="fa fa-rocket"></i> -->
+						<h3>2. Decide to Pick Up Food or Have it Delivered </h3>
+						<p> Pick Up (free): Make sure chef's address is close to you.</p>
+						<p> Delivery ($3 -$5): Will coste extra to get delivered.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<!-- <i class="fa fa-cogs"></i> -->
+						<h3>3. Order the Food</h3>
+						<p>Confirm which food items you would like from the chef and the quantity of each. </p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-diamond"></i>
+						<h3>4. Order Confirmation </h3>
+						<p> - This confirmation will be stored on your app for reference.</p>
+						<p> - It shows the pricing, quantity of meals, which meals, pickup time, delivery time </p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-pencil"></i>
+						<h3>Email / SMS Notification</h3>
+						<p>You will receive an email and text of when to pick up or when it will be delivered.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- /service -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Service -->
+
+
+	<!-- Why Choose Us -->
+	<div id="features" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- why choose us content -->
+				<div class="col-md-6">
+					<div class="section-header">
+						<h2 class="title">Why Choose Us</h2>
+					</div>
+					<p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam
+						maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.</p>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Quis varius quam quisque id diam vel quam elementum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Mauris augue neque gravida in fermentum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Orci phasellus egestas tellus rutrum.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p>
+					</div>
+				</div>
+				<!-- /why choose us content -->
+
+				<!-- About slider -->
+				<div class="col-md-6">
+					<div id="about-slider" class="owl-carousel owl-theme">
+						<img class="img-responsive" src="./img/about1.jpg" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
+						<img class="img-responsive" src="./img/about1.jpg" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
+					</div>
+				</div>
+				<!-- /About slider -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Why Choose Us -->
+
+
+
+
+	<!-- Team -->
+	<div id="team" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./profPic/rob.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Robert Kim</h3>
+							<span>Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./profPic/silv.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Siwen Wang</h3>
+							<span>Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./profPic/jae.jpg" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Jae Butler</h3>
+							<span>Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Team -->
+
+	<!-- Contact -->
+	<div id="contact" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section-header -->
+				<div class="section-header text-center">
+					<h2 class="title">Get in touch</h2>
+				</div>
+				<!-- /Section-header -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-phone"></i>
+						<h3>Phone</h3>
+						<p>512-421-3940</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-envelope"></i>
+						<h3>Email</h3>
+						<p>email@support.com</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-map-marker"></i>
+						<h3>Address</h3>
+						<p>1739 Bubby Drive</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact form -->
+				<div class="col-md-8 col-md-offset-2">
+					<form class="contact-form">
+						<input type="text" class="input" placeholder="Name">
+						<input type="email" class="input" placeholder="Email">
+						<input type="text" class="input" placeholder="Subject">
+						<textarea class="input" placeholder="Message"></textarea>
+						<button class="main-btn">Send message</button>
+					</form>
+				</div>
+				<!-- /contact form -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Contact -->
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="index.html"><img src="logo.jpg" alt="logo"></a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Copyright © 2017. All Rights Reserved.</p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
 </html>
