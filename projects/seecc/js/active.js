@@ -42,14 +42,14 @@
 
     if ($.fn.owlCarousel) {
         $(".mosh-workflow-slides").owlCarousel({
-            items: 3,
-            loop: true,
-            autoplay: true,
+            items: 5,
+            loop: false,
+            autoplay: false,
             smartSpeed: 800,
             margin: 30,
-            center: true,
+            center: false,
             dots: true,
-            startPosition: 1,
+            startPosition: 0,
             responsive: {
                 0: {
                     items: 1
@@ -66,13 +66,14 @@
 
     if ($.fn.owlCarousel) {
         $(".mosh-team-slides").owlCarousel({
-            items: 3,
-            loop: true,
-            autoplay: true,
+            items: 2,
+            loop: false,
+            autoplay: false,
             smartSpeed: 800,
-            margin: 50,
+            margin: 25,
             center: true,
             nav: true,
+            startPosition: 1,
             navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
             responsive: {
                 0: {
