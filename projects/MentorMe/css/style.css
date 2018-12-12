@@ -102,6 +102,16 @@ section p {
     border-width: 1px;
 }
 
+.logo {
+    padding-left: 1em;
+    padding-right: 0.25em;
+    padding-bottom: 2em;
+    background-image: url('../logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 4rem;
+}
+
 button:hover {
     background-color: 
 }
